@@ -1,16 +1,16 @@
 # Active-Directory-Lab
 
----
+
 
 ## Objective
 
----
+
 
 The objective of this lab was to set up an Active Directory environment on a virtual machine running Windows Server 2019, configure network settings, create and manage user accounts and organizational units, and install and configure essential network services such as Remote Access Services (RAS), Network Address Translation (NAT), and DHCP. Through this lab, various technical skills were demonstrated, including virtualization, operating system installation, IP addressing, Active Directory management, and network configuration.
 
 ## Skills Learned
 
----
+
 
 - **Virtualization:** setting up and managing virtual machines using VirtualBox.
 - **Operating System Installation:** Installing and configuring Windows Server 2019.
@@ -23,7 +23,7 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 ## Tools Used
 
----
+
 
 - VirtualBox for creating and managing virtual machines.
 - Windows Server 2019 ISO for the operating system installation on the virtual machine.
@@ -35,17 +35,17 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 ## Steps
 
----
+
 
 # Topology
 
----
+
 
 ![Screenshot 2024-11-30 185842.png](Active-Directory-Lab/Screenshot_2024-11-30_185842.png)
 
 # Initial Setup
 
----
+
 
 1. **ISO Downloads**: Downloaded Windows 10 ISO and Windows Server 2019 ISO.
 2. **Virtual Machine Setup**: Deployed Windows Server 2019 as a virtual machine using VirtualBox.
@@ -56,13 +56,13 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 # IP Address Configuration
 
----
+
 
 ![Screenshot 2024-11-30 175152.png](Active-Directory-Lab/Screenshot_2024-11-30_175152.png)
 
 ### Steps to Configure IP Addressing
 
----
+
 
 1. **Network Settings**: Accessed network settings to change adapter options.
 2. **Adapter Configuration**:
@@ -72,13 +72,13 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 # Active Directory and Domain Creation
 
----
+
 
 ![Active-Directory1.png](Active-Directory-Lab/Active-Directory1.png)
 
 ### Steps to Configure Active Directory Installation and Domain Creation
 
----
+
 
 1. **Server Manager Dashboard**:
     - **Add Roles and Features**: Selected the server and checked the Active Directory Domain Services option.
@@ -86,7 +86,7 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 # User Creation and Privilege Assignment
 
----
+
 
 ![add-user1.png](Active-Directory-Lab/add-user1.png)
 
@@ -98,7 +98,7 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 ### Steps to Add User and Assign Privileges
 
----
+
 
 1. **Accessing Active Directory**:
     - **Active Directory Users and Computers**: From the Start menu, selected Active Directory Users and Computers.
@@ -111,13 +111,13 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 # Installing RAS / NAT
 
----
+
 
 ![active-directory-end-setup.png](Active-Directory-Lab/active-directory-end-setup.png)
 
 ### Steps to Install Remote Access Services (RAS) and NAT
 
----
+
 
 1. **Add Roles and Features**:
     - **Server Roles**: Selected Remote Access, then continued to select "Routing" and installed the feature.
@@ -127,13 +127,13 @@ The objective of this lab was to set up an Active Directory environment on a vir
 
 # DHCP Server Configuration
 
----
+
 
 ![active-directory-end-setup.png](Active-Directory-Lab/active-directory-end-setup%201.png)
 
 ### Steps to Configure DHCP
 
----
+
 
 1. **Add Roles and Features**:
     - **DHCP Role**: Selected DHCP and added features.
